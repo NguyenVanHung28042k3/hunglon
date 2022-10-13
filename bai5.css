@@ -1,0 +1,176 @@
+body{
+    padding: 0; margin: 0;
+}
+.fontchu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+article{
+    min-height: 40px; width: 75%;
+    float: left;
+    text-align: center;
+}
+aside{
+    min-height: 40px; width: 25%;
+    float: left;
+    text-align: center;
+}
+a.dangnhap-cl{
+    padding: 5px;
+    background-color: #00483d;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 40px;
+}
+a.dangnhap-cl:hover{
+    background-color:white;
+    color: #00483d;
+}
+span{
+    color: #00483d;
+}
+nav{
+    line-height: 50px;
+    background:#00483d;
+    clear: both;
+    border-radius: 3px;
+}
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+input[type="text"] {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 3px;
+    outline:none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+a.luachon1{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin-right: 5px;
+}
+a.luachon1:hover{
+    text-decoration: underline;
+}
+header{
+    height: 200px;
+}
+header{
+    min-height: 250px; width: 100%;
+    float: left;
+}
+.khunganh{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+}
+.boxanh{
+    width: 60%;
+    height: 100%;       
+
+}
+.video{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.boxvideo{
+    width: 100%;
+    height: 100%;
+}
+
+a.hangdt-cl{
+    padding: 5px 10px;
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin-right: 9px;
+    
+}
+.hang{
+    text-align: center;
+    line-height: 50px;
+    clear: both;
+    background-color: #00483d;
+    border-radius: 3px;
+}
+.hang>.hangdt>.hangdt-cl:hover{
+    text-decoration: underline;
+    color: white;
+    text-decoration: none;
+    background: #29796d;
+    padding: 12px 10px 16px 10px;
+    border-radius: 2px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.sanpham{
+    width: 25%;
+    float: left;
+}
+.cautruc{
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px gray;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    height: 420px;
+}
+.sanpham>.cautruc>.anh{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.sanpham>.cautruc>.muahang{
+    color: white;
+    background: #00483d;    
+    float: left;   
+    margin-left: 90px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.sanpham>.cautruc>.name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
+    float: left;
+    margin-left: 65px;
+}
+.sanpham>.cautruc>.gia{
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    padding:10px;
+
+
+}
+.sanpham>.cautruc>.ghichu{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.sanpham>.cautruc>.muahang:hover{
+    color: #eaff00; 
+}
+.sanpham>.cautruc>.muahang:hover{
+    color: white;
+    background: #000000;    
+    float: left;   
+    padding: 10px;
+    transition: 0.3s;
+}
